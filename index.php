@@ -3,10 +3,6 @@ global $pdo;
 require 'config/conf.php';
 ?>
 
-
-
-
-
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -32,7 +28,7 @@ require 'config/conf.php';
         <!--<a href="#skills">Skills</a>-->
         <a href="#projects">Projects</a>
         <a href="#games">Games</a>
-        <a href="#contact">Contact</a>
+        <a href="#guestBook">Guest Book</a>
         <!-- <a href="#Services">Services</a> -->
     </nav>
 
@@ -56,7 +52,7 @@ require 'config/conf.php';
             <a href="#"><i class='bx bxl-github'></i></a>
         </div>
 
-        <a href="../cv/CV_etudiant_2.pdf" class="btn">Download my CV<i class='bx bx-download'></i></a>
+        <a href="cv/CV_etudiant_2.pdf" class="btn">Download my CV<i class='bx bx-download'></i></a>
     </div>
 
     <div class="profession-container">
@@ -94,7 +90,7 @@ require 'config/conf.php';
 
 <section class="about" id="about">
     <div class="about-img">
-        <img src="../img_home_about/croiseTransConv.png" alt="">
+        <img src="img_home_about/croiseTransConv.png" alt="">
     </div>
 
     <div class="about-content">
@@ -326,7 +322,7 @@ require 'config/conf.php';
 
     <div class="projects-container-class">
         <div class="projects-box-class">
-            <img src="../img_project/ssh_web_project.png" alt="">
+            <img src="img_project/ssh_web_project.png" alt="">
 
             <div class="projects-first-layer">
                 <h4>Introduction to IS</h4>
@@ -376,7 +372,7 @@ require 'config/conf.php';
         <!-- Project 2 -->
 
         <div class="projects-box-class">
-            <img src="../img_project/python_project.png" alt="">
+            <img src="img_project/python_project.png" alt="">
 
             <div class="projects-first-layer">
                 <h4>Python Programming</h4>
@@ -422,7 +418,7 @@ require 'config/conf.php';
         <!-- Project 3 -->
 
         <div class="projects-box-class">
-            <img src="../img_project/network_project.png" alt="">
+            <img src="img_project/network_project.png" alt="">
 
             <div class="projects-first-layer">
                 <h4>Introduction to networks</h4>
@@ -476,7 +472,7 @@ require 'config/conf.php';
         <!-- Project 4 -->
 
         <div class="projects-box-class">
-            <img src="../img_project/web_dev_project.png" alt="">
+            <img src="img_project/web_dev_project.png" alt="">
 
             <div class="projects-first-layer">
                 <h4>Web Development</h4>
@@ -530,7 +526,7 @@ require 'config/conf.php';
         <!-- Project 5 -->
 
         <div class="projects-box-class">
-            <img src="../img_project/framework_project.png" alt="">
+            <img src="img_project/framework_project.png" alt="">
 
             <div class="projects-first-layer">
                 <h4>JavaScript</h4>
@@ -568,7 +564,7 @@ require 'config/conf.php';
         <!-- Project 6 -->
 
         <div class="projects-box-class">
-            <img src="../img_project/c_purple_project.png" alt="">
+            <img src="img_project/c_purple_project.png" alt="">
 
             <div class="projects-first-layer">
                 <h4>C programming</h4>
