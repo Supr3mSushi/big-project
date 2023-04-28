@@ -16,7 +16,7 @@ require 'config/conf.php';
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
-<body>
+<body onload="brython()">
 
 <!-- Header -->
 <header class="header">
@@ -632,7 +632,7 @@ require 'config/conf.php';
 <section class="games" id="games">
     <h2 class="heading">My <span>Games</span></h2>
     <a class="titlegame-a"><h3 class="center title-game">Casse brique</h3></a>
-    <div class="game-container" onload="brython()">
+    <div class="game-container">
         <div class="row">
             <table class="table">
                 <tr>
@@ -823,7 +823,7 @@ panel.draw()
     <?php
     require "db/guestbook.php";
 
-    $sql = "SELECT * FROM guestbook";
+    $sql = "SELECT * FROM `guestbook`";
     $pre = $pdo->prepare($sql);
     $pre->execute();
     $data = $pre->fetchAll(PDO::FETCH_ASSOC);
