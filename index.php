@@ -3,6 +3,7 @@ global $pdo;
 require 'config/conf.php';
 ?>
 
+
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
