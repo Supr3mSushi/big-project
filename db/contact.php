@@ -20,5 +20,5 @@ $pre->bindParam(':object', $htmlspecialchars3);
 $htmlspecialchars4 = htmlspecialchars($_POST['message']);
 $pre->bindParam(':message', $htmlspecialchars4);
 
-    $pre->execute();
+$pre->execute();
 ?>

@@ -14,6 +14,7 @@ require 'config/conf.php';
     <link rel="stylesheet" href="css/style.css">
     <!-- Box Icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script>alert("This site is still under development, thank you for your understanding...")</script>
 </head>
 
 <body onload="brython()">
@@ -99,7 +100,7 @@ require 'config/conf.php';
         <p>Hi there, I am a first year student at Guardia Cybersecurity School!
             I am passionate about everything related to IT, specifically cybersecurity.
             I am currently in the midst of an apprenticeship and want to develop my knowledge in this field as much as possible and put my skills to good use in the future.</p>
-        <a href="#" class="btn">Read More</a>
+        <a href="https://www.google.fr/logos/2010/pacman10-i.html" class="btn">Read More</a>
     </div>
 </section>
 
@@ -631,7 +632,6 @@ require 'config/conf.php';
 
 <section class="games" id="games">
     <h2 class="heading">My <span>Games</span></h2>
-    <a class="titlegame-a"><h3 class="center title-game">Casse brique</h3></a>
     <div class="game-container">
         <div class="row">
             <table class="table">
@@ -645,7 +645,6 @@ require 'config/conf.php';
             <script type="text/python">
 import math
 from browser import document, bind, window
-
 ballRadius = 10
 paddleHeight = 10
 paddleWidth = 75
@@ -694,7 +693,6 @@ class Panel:
                         self.score += 1
                         if self.score == brickRowCount * brickColumnCount:
                             window.alert("Vous avez gagné, Bravo!")
-                            document.location.reload()
 
     def drawBall(self):
         ctx = self.ctx
@@ -760,8 +758,7 @@ class Panel:
             else:
                 self.lives -= 1
                 if not self.lives:
-                    window.alert("T'as perdu, entraines toi encore.")
-                    document.location.reload()
+                    window.alert("T'as perdu, entraines toi encore !")
                 else:
                     self.x = canvas.width / 2
                     self.y = canvas.height - 30
@@ -875,7 +872,7 @@ panel.draw()
 <!-- Footer -->
 <footer class="footer">
     <div class="footer-text">
-        <p>Copyright &copy; 2023 by Sushi | All rights Reserved</p>
+        <a href="https://fakeupdate.net/wnc/">Copyright &copy; 2023 by Sushi | All rights Reserved</a>
     </div>
 
     <div class="footer-iconTop">
@@ -889,7 +886,6 @@ panel.draw()
 <!-- Script js -->
 <script src="/js/script.js"></script>
 <!-- Import Brython -->
-<script>alert("This site is still under development, thank you for your understanding...")</script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/brython@3.8.9/brython.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/brython@3.8.9/brython_stdlib.js"></script>
 </body>
